@@ -1,0 +1,67 @@
+# TypeScript Learning Journey
+
+This repository contains my personal practice and learning notes for **TypeScript**.  
+I am learning step by step from basic to advanced concepts.
+
+---
+
+## 📚 What I have learned so far
+
+### 🔹 Primitive Data Types
+- `string`
+- `number`
+- `boolean`
+- `null`
+- `undefined`
+
+### 🔹 Arrays
+- String arrays
+- Mixed arrays (union types)
+
+```ts
+let bazarList: string[] = ["eggs", "milk", "sugar"];
+let mixedArr: (string | number)[] = ["eggs", 123];
+```
+
+Tuples
+
+Fixed structure arrays with defined types
+```ts 
+let coordinates: [number, number] = [20, 30];
+let nameAndRoll: [string, number] = ["ramjan", 3434];
+```
+
+Objects
+
+Working with object types, optional properties, and readonly fields
+
+```ts
+const user: {
+  readonly organization: string;
+  firstName: string;
+  middleName?: string;
+  lastName: string;
+  isMarried: boolean;
+} = {
+  organization: "Drakilo",
+  firstName: "Ramjan",
+  lastName: "Ali",
+  isMarried: false,
+};
+
+```
+
+Key Concepts Learned
+Type annotations
+Type inference
+Union types
+Tuple types
+Optional properties (?)
+Readonly properties
+Basic array operations
+
+Goal of this repo
+Strengthen my TypeScript fundamentals
+Build strong typing discipline
+Prepare for real-world backend/frontend development
+Improve problem-solving with type safety

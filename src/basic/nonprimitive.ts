@@ -34,14 +34,11 @@ let destination: [string, string, number] = ["Dhaka", "chittagong", 4];
 //   isMarried: false,
 // };
 
-
 // user.organization = "Drakilo team"
 // console.log(user)
 
-
-
 const user: {
-   readonly organization: string;// access modifier
+  readonly organization: string; // access modifier
   firstName: string;
   middleName?: string; // optional type
   lastName: string;
@@ -54,6 +51,5 @@ const user: {
   isMarried: false,
 };
 
-
 // user.organization = "Drakilo team" // it can't use becouse of read-only assigned
-console.log(user)
+console.log(user);
