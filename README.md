@@ -65,6 +65,30 @@ Functions are used to define reusable logic. In TypeScript, we can clearly defin
 
 
 
+## 🔹 Rest & Spread Operator
+
+Rest and Spread operators use the same syntax (`...`) but serve different purposes depending on where they are used.
+
+---
+
+###  Spread Operator (`...`)
+
+The spread operator is used to **expand elements** from arrays or objects.
+
+---
+
+####  Array Spread
+
+```ts
+const numbers1: number[] = [1, 2, 3];
+const numbers2: number[] = [4, 5, 6];
+
+const combinedNumbers = [...numbers1, ...numbers2];
+
+console.log(combinedNumbers); // [1,2,3,4,5,6]
+```
+
+
 
 Key Concepts Learned
 Type annotations
