@@ -113,6 +113,12 @@ Destructuring allows extracting values from objects and arrays in a clean and re
 
 ### Union & Intersection
 
+### ?: ternary operator → decision making
+
+### ?? nullish coalescing → fallback for null/undefined
+
+### ?. optional chaining → safe property access
+
 Key Concepts Learned
 Type annotations
 Type inference
