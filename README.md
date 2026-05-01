@@ -100,6 +100,16 @@ If you remember this, you’ll never confuse them again.
 
 ---
 
+## 🔹 Destructuring in TypeScript
+
+Destructuring allows extracting values from objects and arrays in a clean and readable way.
+
+---
+
+###  Object Destructuring
+### Array Destructuring
+
+
 
 
 
