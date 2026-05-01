@@ -51,6 +51,21 @@ const user: {
 
 ```
 
+
+## 🔹 Functions in TypeScript
+
+Functions are used to define reusable logic. In TypeScript, we can clearly define parameter types and return types.
+
+---
+
+###  Normal Function
+###  Arrow Function
+### Object Method (Function inside object)
+### Callback Function (Array map)
+
+
+
+
 Key Concepts Learned
 Type annotations
 Type inference

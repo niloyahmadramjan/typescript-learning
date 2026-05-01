@@ -22,15 +22,14 @@ const poorUser = {
   name: "Ramjan",
   balance: 0,
   addBalance(value: number): number {
-    const totalBalance = this.balance + value;
-    return totalBalance;
+    return (this.balance += value);
   },
 };
 
-poorUser.addBalance(500)
+poorUser.addBalance(500);
 
-// call back funtion 
-const arr: number[]= [1,2,3,5]
+// call back funtion
+const arr: number[] = [1, 2, 3, 5];
 
-const sqrArray = arr.map((e: number): number=> e*e)
-console.log(sqrArray)
+const sqrArray = arr.map((e: number): number => e * e);
+console.log(sqrArray);
