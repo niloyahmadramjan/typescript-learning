@@ -33,3 +33,11 @@ const arr: number[] = [1, 2, 3, 5];
 
 const sqrArray = arr.map((e: number): number => e * e);
 console.log(sqrArray);
+
+// funtion alias
+
+type AddFun = (num1: number, num2: number) => number;
+
+const addFuntion: AddFun = (num1, num2) => {
+  return num1 + num2;
+};

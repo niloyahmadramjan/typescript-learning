@@ -21,6 +21,8 @@ const user = {
 // const myFavoriteColor= user.favoriteColor;
 // const myLastName= user.name.lastname;
 
+
+// name alias
 const {favoriteColor: myFav, name: {lastname: myLN}}=user;
 
 console.log(myFav)
