@@ -119,6 +119,52 @@ Destructuring allows extracting values from objects and arrays in a clean and re
 
 ### ?. optional chaining → safe property access
 
+## 🔹 Advanced Types in TypeScript
+
+### Nullable Types
+
+- Allow variables to accept `null` or specific types
+- Useful for handling optional input or database queries
+- Requires union type (e.g. `string | null`)
+
+---
+
+### Unknown Type
+
+- Safer alternative to `any`
+- Type must be checked before use
+- Commonly used with `typeof` for type narrowing
+
+---
+
+### Type Narrowing
+
+- Process of checking type before performing operations
+- Example: `typeof input === "number"` or `"string"`
+
+---
+
+### Never Type
+
+- Represents values that never occur
+- Used in functions that always throw errors or never return
+
+---
+
+### Void Type
+
+- Used for functions that do not return anything
+- Common in logging or utility functions
+
+---
+
+## What I Learned
+
+- Handling nullable values safely
+- Using `unknown` with proper type checking
+- Type narrowing techniques
+- Difference between `void` and `never`
+
 Key Concepts Learned
 Type annotations
 Type inference
