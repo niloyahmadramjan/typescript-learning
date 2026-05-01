@@ -8,6 +8,7 @@ I am learning step by step from basic to advanced concepts.
 ## 📚 What I have learned so far
 
 ### 🔹 Primitive Data Types
+
 - `string`
 - `number`
 - `boolean`
@@ -15,6 +16,7 @@ I am learning step by step from basic to advanced concepts.
 - `undefined`
 
 ### 🔹 Arrays
+
 - String arrays
 - Mixed arrays (union types)
 
@@ -26,7 +28,8 @@ let mixedArr: (string | number)[] = ["eggs", 123];
 Tuples
 
 Fixed structure arrays with defined types
-```ts 
+
+```ts
 let coordinates: [number, number] = [20, 30];
 let nameAndRoll: [string, number] = ["ramjan", 3434];
 ```
@@ -48,9 +51,7 @@ const user: {
   lastName: "Ali",
   isMarried: false,
 };
-
 ```
-
 
 ## 🔹 Functions in TypeScript
 
@@ -58,12 +59,13 @@ Functions are used to define reusable logic. In TypeScript, we can clearly defin
 
 ---
 
-###  Normal Function
-###  Arrow Function
+### Normal Function
+
+### Arrow Function
+
 ### Object Method (Function inside object)
+
 ### Callback Function (Array map)
-
-
 
 ## 🔹 Rest & Spread Operator
 
@@ -71,13 +73,13 @@ Rest and Spread operators use the same syntax (`...`) but serve different purpos
 
 ---
 
-###  Spread Operator (`...`)
+### Spread Operator (`...`)
 
 The spread operator is used to **expand elements** from arrays or objects.
 
 ---
 
-####  Array Spread
+#### Array Spread
 
 ```ts
 const numbers1: number[] = [1, 2, 3];
@@ -88,10 +90,9 @@ const combinedNumbers = [...numbers1, ...numbers2];
 console.log(combinedNumbers); // [1,2,3,4,5,6]
 ```
 
-
 ---
 
-#  Real Developer Tip
+# Real Developer Tip
 
 👉 Spread = **copy / merge**  
 👉 Rest = **gather / collect**
@@ -106,12 +107,11 @@ Destructuring allows extracting values from objects and arrays in a clean and re
 
 ---
 
-###  Object Destructuring
+### Object Destructuring
+
 ### Array Destructuring
 
-
-
-
+### Union & Intersection
 
 Key Concepts Learned
 Type annotations
