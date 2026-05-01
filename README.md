@@ -89,6 +89,19 @@ console.log(combinedNumbers); // [1,2,3,4,5,6]
 ```
 
 
+---
+
+#  Real Developer Tip
+
+👉 Spread = **copy / merge**  
+👉 Rest = **gather / collect**
+
+If you remember this, you’ll never confuse them again.
+
+---
+
+
+
 
 Key Concepts Learned
 Type annotations
