@@ -124,6 +124,7 @@ Destructuring allows extracting values from objects and arrays in a clean and re
 ### Nullable Types
 ### Type Assertion
 ### Type Interface
+### Generics in TypeScript
 
 - Allow variables to accept `null` or specific types
 - Useful for handling optional input or database queries
