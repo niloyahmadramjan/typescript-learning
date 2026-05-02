@@ -8,7 +8,7 @@ const getUser = (input: string) => {
   }
 };
 
-getUser(null);
+// getUser(null);
 
 // unknown type
 
