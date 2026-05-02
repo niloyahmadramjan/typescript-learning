@@ -122,6 +122,8 @@ Destructuring allows extracting values from objects and arrays in a clean and re
 ## 🔹 Advanced Types in TypeScript
 
 ### Nullable Types
+### Type Assertion
+### Type Interface
 
 - Allow variables to accept `null` or specific types
 - Useful for handling optional input or database queries
