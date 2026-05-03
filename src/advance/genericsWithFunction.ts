@@ -1,4 +1,28 @@
-// Generic Function
+/**
+ * Generic Functions in TypeScript
+ *
+ * A generic function works with multiple types while keeping type safety.
+ *
+ * Why use:
+ * - Reusable for different types
+ * - Avoid code duplication
+ * - Maintain strong typing
+ *
+ * How it works:
+ * - Use type parameter <T>
+ *
+ * Example:
+ * function identity<T>(value: T): T {
+ *   return value;
+ * }
+ *
+ * Note:
+ * - Preserves the input type
+ * - Type can be inferred automatically
+ *
+ * Rule:
+ * Write once, use with any type safely.
+ */
 
 const createArrayWithString = (value: string) => [value];
 
