@@ -37,10 +37,11 @@ const coordinates1: Coordinates1<number, number> = [20, 30];
 
 // for array of obj
 
-const userList: GenetricArray<{
+type GUser = {
   name: string;
   age: number;
-}> = [
+}
+const userList: GenetricArray<GUser> = [
   {
     name: "x",
     age: 21,
