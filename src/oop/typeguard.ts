@@ -1,8 +1,5 @@
 // type of guard
-// type guard typeof and in
-// access modifiets
-// getter and setter
-// static in typescript
+
 
 type Alphaneumeric = number | string;
 

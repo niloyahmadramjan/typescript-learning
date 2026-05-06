@@ -1,5 +1,8 @@
 // OOP - instance of type guard narrowing
-
+// type guard typeof and in
+// access modifiets
+// getter and setter
+// static in typescript
 class Person {
   name: string;
   constructor(name: string) {
